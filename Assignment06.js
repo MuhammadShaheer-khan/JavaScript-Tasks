@@ -34,4 +34,19 @@ var indexOf3 = string3.indexOf(3);
 document.write("String is: " + string3 + "<br\>" + "Cheracter at 3rd index is: " + indexOf3 + "<br\>");
 
 
-// 
+// Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser.
+
+var city1 = "Hyderabad";
+var cityRep = city1.replace("Hyder", "Islam");
+document.write("City: " + city1 + "<br\>" + "After replacement: " + cityRep + "<br\>");
+
+
+// Write a program to replace all occurrences of “and” in the string with “&” and display the result in your browser. var message = “Ali and Sami are best friends. They play cricket and football together.”;
+
+var message = "Ali and Sami are best friends. They play cricket and football together.";
+var repMessage = message.replace("and" , "&");
+document.write("Message before replacement: " + message + "<br\>" + "Message after replacement: " + repMessage + "<br\>");
+
+
+// Write a program that takes user input. Convert and show the input in title case.
+
